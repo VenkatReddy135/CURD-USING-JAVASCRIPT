@@ -13,7 +13,8 @@ function salary(){
       for(i=0;i<arr.length;i++){
       output=output+`<li>${arr[i]}</li><br>`
         }
-        document.getElementById("num3").innerHTML=output;    
+        document.getElementById("num3").innerHTML=output;  
+        console.log("hello world venkateshwar reddy bogala")  
 }
 salary()
 console.log(arr)
